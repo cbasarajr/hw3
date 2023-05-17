@@ -1,0 +1,21 @@
+<h1><%= @place["name"] %></h1>
+
+<h2>Notes</h2>
+
+<ul>
+  <% for post in @post %>
+    <li><%= post["title"] %></li>
+    <li><%= post["posted_on"] %></li>
+    <li><%= post["description"] %></li>
+    <li><%= ""%></li>
+  <% end %>
+</ul>
+
+<ul>
+  <% for post in @post %>
+    <li><%= post["title"] %></li>
+    <li><%= post["posted_on"] %></li>
+    <li><%= post["description"] %></li>
+    <li><%= ""%></li>
+  <% end %>
+</ul>
